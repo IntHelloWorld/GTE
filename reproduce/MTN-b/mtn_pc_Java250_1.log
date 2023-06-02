@@ -1,0 +1,42 @@
+2023-04-25 10:28:35,098 - mtnb_pc - INFO - creating vocabulary...
+2023-04-25 10:30:08,194 - mtnb_pc - INFO - finished
+2023-04-25 10:30:08,276 - mtnb_pc - INFO - reading dataset...
+2023-04-25 10:30:25,712 - mtnb_pc - INFO - start training...
+2023-04-25 10:30:25,712 - mtnb_pc - INFO - train data: 45000
+2023-04-25 10:30:25,712 - mtnb_pc - INFO - epoch: 1
+2023-04-25 16:08:03,602 - mtnb_pc - INFO - start valid: 
+2023-04-25 16:20:30,281 - mtnb_pc - INFO - acc: 0.7950666666666667
+2023-04-25 16:20:30,322 - mtnb_pc - INFO - epoch: 1 end
+2023-04-25 16:20:30,323 - mtnb_pc - INFO - epoch: 2
+2023-04-25 22:13:25,192 - mtnb_pc - INFO - start valid: 
+2023-04-25 22:25:53,390 - mtnb_pc - INFO - acc: 0.8790666666666667
+2023-04-25 22:25:53,455 - mtnb_pc - INFO - epoch: 2 end
+2023-04-25 22:25:53,456 - mtnb_pc - INFO - epoch: 3
+2023-04-26 03:43:05,838 - mtnb_pc - INFO - start valid: 
+2023-04-26 03:55:18,168 - mtnb_pc - INFO - acc: 0.8948
+2023-04-26 03:55:18,239 - mtnb_pc - INFO - epoch: 3 end
+2023-04-26 03:55:18,240 - mtnb_pc - INFO - epoch: 4
+2023-04-26 09:12:45,728 - mtnb_pc - INFO - start valid: 
+2023-04-26 09:25:27,104 - mtnb_pc - INFO - acc: 0.9108666666666667
+2023-04-26 09:25:27,175 - mtnb_pc - INFO - epoch: 4 end
+2023-04-26 09:25:27,175 - mtnb_pc - INFO - epoch: 5
+2023-04-26 15:57:30,963 - mtnb_pc - INFO - start valid: 
+2023-04-26 16:10:42,467 - mtnb_pc - INFO - acc: 0.9142666666666667
+2023-04-26 16:10:42,540 - mtnb_pc - INFO - epoch: 5 end
+2023-04-26 16:10:42,541 - mtnb_pc - INFO - epoch: 6
+2023-04-26 22:10:06,573 - mtnb_pc - INFO - start valid: 
+2023-04-26 22:22:51,709 - mtnb_pc - INFO - acc: 0.922
+2023-04-26 22:22:51,781 - mtnb_pc - INFO - epoch: 6 end
+2023-04-26 22:22:51,782 - mtnb_pc - INFO - epoch: 7
+2023-04-27 04:10:59,559 - mtnb_pc - INFO - start valid: 
+2023-04-27 04:23:04,650 - mtnb_pc - INFO - acc: 0.9230666666666667
+2023-04-27 04:23:04,716 - mtnb_pc - INFO - epoch: 7 end
+2023-04-27 04:23:04,717 - mtnb_pc - INFO - epoch: 8
+2023-04-27 10:11:07,067 - mtnb_pc - INFO - start valid: 
+2023-04-27 10:23:16,510 - mtnb_pc - INFO - acc: 0.9262666666666667
+2023-04-27 10:23:16,579 - mtnb_pc - INFO - epoch: 8 end
+2023-04-27 10:23:16,580 - mtnb_pc - INFO - epoch: 9
+2023-04-27 16:36:09,708 - mtnb_pc - INFO - start valid: 
+2023-04-27 16:48:30,777 - mtnb_pc - INFO - acc: 0.9222666666666667
+2023-04-27 16:48:30,778 - mtnb_pc - INFO - epoch: 9 end
+2023-04-27 16:48:30,778 - mtnb_pc - INFO - epoch: 10

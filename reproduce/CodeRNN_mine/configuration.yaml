@@ -1,0 +1,30 @@
+data_setup:
+  dataset_dir: /home/qyh/Desktop/github/dataset/CodeNet/Project_CodeNet_C++1400_RATIO6-2-2_DGL
+  vocab_dir: /home/qyh/projects/GTE/vocabulary/token_to_index_PC_cpp1400.pkl
+
+model_setup:
+  checkpoint: /home/qyh/projects/GTE/reproduce/CodeRNN_mine/output/ProgramClassification_C++1400/model_2023-05-04--21-00-24_acc0.9120.pt
+  hidden_dim: 512
+  n_classes: 1400
+
+optimizer_setup:
+  learning_rate: 0.00004
+  reg_scale: 0.01
+  scheduler: None
+  scheduler_params:
+    step_size: 10
+    gamma: 0.75
+  optimizer: AdamW
+
+training_setup:
+  log_dir: /home/qyh/projects/GTE/reproduce/CodeRNN_mine/logs/ProgramClassification_C++1400
+  model_dir: /home/qyh/projects/GTE/reproduce/CodeRNN_mine/output/ProgramClassification_C++1400
+  with_cuda: true
+  cuda_device_id: 0
+  max_epoch: 6
+  batch_size: 64
+  inspect_step: 100
+  random_seed: 456
+  early_stopping_patience: 10
+  loader_num_workers: 8
+  pin_memory: true

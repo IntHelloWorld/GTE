@@ -1,0 +1,30 @@
+data_setup:
+  dataset_dir: /home/qyh/Desktop/github/dataset/CodeNet/Project_CodeNet_Java250_RATIO6-2-2_DGL
+  vocab_dir: /home/qyh/projects/GTE/vocabulary/token_to_index_PC_Java250.pkl
+
+model_setup:
+  checkpoint:
+  hidden_dim: 512
+  n_classes: 250
+
+optimizer_setup: 
+  learning_rate: 0.0003
+  reg_scale: 0.01
+  scheduler: None
+  scheduler_params:
+    step_size: 10
+    gamma: 0.75
+  optimizer: AdamW
+
+training_setup:
+  log_dir: /home/qyh/projects/GTE/reproduce/TreeLSTM_mine/logs/ProgramClassification_Java250_time
+  model_dir: /home/qyh/projects/GTE/reproduce/TreeLSTM_mine/output/ProgramClassification_Java250_time
+  with_cuda: true
+  cuda_device_id: 1
+  max_epoch: 50
+  batch_size: 8
+  inspect_step: 100
+  random_seed: 456
+  early_stopping_patience: 10
+  loader_num_workers: 16
+  pin_memory: true

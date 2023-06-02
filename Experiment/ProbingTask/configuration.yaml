@@ -1,0 +1,28 @@
+data_setup:
+  # data_dir: /home/qyh/projects/GTE/reproduce/Transformer/output/ast_Java250_probing/2023-05-25--09-47-02/probing_task_Transformer_ast.jsonl
+  # data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/Transformer/probing_task_Transformer.jsonl
+  # data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/GRU/probing_task_GRU.jsonl
+  # data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/TreeLSTM/probing_task_TreeLSTM.jsonl
+  # data_dir: /home/qyh/projects/GTE/reproduce/MTN-b/output/probing_task_mtnb.jsonl
+  # data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/TransformerNoType/probing_task_Transformer_no_type.jsonl
+  # data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/TransformerRelativePos/probing_task_Transformer_relative_pos.jsonl
+  data_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/GGNN/probing_task_GGNN.jsonl
+
+
+model_setup:
+  checkpoint:
+  input_dim: 512
+  dense_dim: 128
+  n_classes: 3
+  bias: true
+
+training_setup:
+  log_dir: /home/qyh/projects/GTE/logs/ProbingTask/GGNN
+  model_dir: /home/qyh/projects/GTE/output/ProbingTask/GGNN
+  with_cuda: true
+  cuda_device_id: 1
+  batch_size: 32
+  max_epoch: 1000
+  random_seed: 456
+  learning_rate: 0.00005
+  early_stopping_patience: 20

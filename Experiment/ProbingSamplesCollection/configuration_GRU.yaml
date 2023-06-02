@@ -1,0 +1,23 @@
+data_setup:
+  dataset_dir: /home/qyh/dataset/Project_CodeNet_Java250_RATIO6-2-2_ProbingTask_DGL/test
+  output_dir: /home/qyh/projects/GTE/output/ProbingTaskCollection/GRU
+  token_vocab_dir: /home/qyh/projects/GTE/vocabulary/token_to_index_PC_java250.pkl
+
+model_setup:
+  checkpoint: /home/qyh/projects/GTE/output/ProgramClassificationGRU_java250/model_2023-05-18--09-10-17_acc0.9597.pt
+  hidden_dim: 512
+  num_heads: 8
+  n_classes: 250
+  dropout: 0
+  bias: true
+  n_layers: 1
+
+training_setup:
+  model_type: GRU
+  log_dir: /home/qyh/projects/GTE/logs/ProbingTaskCollection/GRU
+  with_cuda: true
+  cuda_device_id: 1
+  batch_size: 1
+  random_seed: 456
+  loader_num_workers: 10
+  pin_memory: true
