@@ -1,4 +1,4 @@
-# The online repository for the under review IJCAI2024 paper "GTE: A Framework for Learning Code AST Representation Efficiently and Effectively"
+# The online repository for the paper "GTE: Learning Code AST Representation Efficiently and Effectively"
 
 ## Data Preprocess
 Download the divided data from https://doi.org/10.5281/zenodo.10369493
